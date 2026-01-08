@@ -3,16 +3,53 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>About Us - Divinity International Traders</title>
+<title>About Us</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="pages.css">
+
+<style>
+/* SAFE LOCKED HEADER – INNER PAGES ONLY */
+.site-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  border-bottom:1px solid #e5e5e5;
+  background:#fff;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.brand img{
+  height:55px;
+}
+.company-name{
+  font-weight:700;
+  font-family:Arial,Helvetica,sans-serif;
+}
+.tagline{
+  font-size:14px;
+  color:#2fa4d9;
+}
+.site-header nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:#222;
+  font-weight:600;
+}
+.site-header nav a:hover{
+  color:#2fa4d9;
+}
+</style>
+
 </head>
 <body>
 
 <header class="site-header">
   <div class="brand">
-    <img src="logo.png" alt="DIT Logo">
-    <div class="brand-text">
+    <img src="logo.png">
+    <div>
       <div class="company-name">DIVINITY INTERNATIONAL TRADERS</div>
       <div class="tagline">Value • Trust • Global</div>
     </div>
@@ -20,31 +57,13 @@
   <nav>
     <a href="index.html">Home</a>
     <a href="products.html">Products</a>
-    <a href="about.html" class="active">About</a>
+    <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<section class="page-section">
+<div style="padding:40px;font-family:Arial">
 <h1>About Us</h1>
-
-<p class="small">
-Divinity International Traders is a trusted import–export company supplying
-high-quality earthen kulhads and eco-friendly packaging solutions to buyers worldwide.
-</p>
-
-<div class="md-wrap">
-  <img src="md.jpg">
-  <div>
-    <h3>Mr. Nilesh Prajapati</h3>
-    <p class="small">
-    As Managing Director, Mr. Nilesh Prajapati leads the company with a vision
-    to deliver consistent quality, transparent trade practices, and long-term
-    global partnerships.
-    </p>
-  </div>
 </div>
-</section>
-
 </body>
 </html>
