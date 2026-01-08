@@ -1,50 +1,25 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Our Products</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Products</title><meta name="viewport" content="width=device-width,initial-scale=1">
 
 <style>
 /* SAFE LOCKED HEADER – INNER PAGES ONLY */
 .site-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:15px 40px;
-  border-bottom:1px solid #e5e5e5;
-  background:#fff;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:15px 40px;border-bottom:1px solid #e5e5e5;background:#fff
 }
-.brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-}
-.brand img{
-  height:55px;
-}
-.company-name{
-  font-weight:700;
-  font-family:Arial,Helvetica,sans-serif;
-}
-.tagline{
-  font-size:14px;
-  color:#2fa4d9;
-}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{height:55px}
+.company-name{font-weight:700;font-family:Arial}
+.tagline{font-size:14px;color:#2fa4d9}
 .site-header nav a{
-  margin-left:20px;
-  text-decoration:none;
-  color:#222;
-  font-weight:600;
+  margin-left:20px;text-decoration:none;color:#222;font-weight:600
 }
-.site-header nav a:hover{
-  color:#2fa4d9;
-}
+.site-header nav a:hover{color:#2fa4d9}
 </style>
 
-</head>
-<body>
+<link rel="stylesheet" href="pages.css">
+</head><body>
 
 <header class="site-header">
   <div class="brand">
@@ -62,8 +37,12 @@
   </nav>
 </header>
 
-<div style="padding:40px;font-family:Arial">
+<section class="page-section">
 <h1>Our Products</h1>
+<div class="product-grid">
+  <div class="product-card"><div class="product-img"><img src="p1.jpg"></div><h3>Kulhad 1</h3><a class="btn-quote" href="contact.html">Get Quote</a></div>
+  <div class="product-card"><div class="product-img"><img src="p2.jpg"></div><h3>Kulhad 2</h3><a class="btn-quote" href="contact.html">Get Quote</a></div>
+  <div class="product-card"><div class="product-img"><img src="p3.jpg"></div><h3>Kulhad 3</h3><a class="btn-quote" href="contact.html">Get Quote</a></div>
 </div>
-</body>
-</html>
+</section>
+</body></html>

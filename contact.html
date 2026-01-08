@@ -1,50 +1,25 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Contact Us</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Contact</title><meta name="viewport" content="width=device-width,initial-scale=1">
 
 <style>
 /* SAFE LOCKED HEADER – INNER PAGES ONLY */
 .site-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:15px 40px;
-  border-bottom:1px solid #e5e5e5;
-  background:#fff;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:15px 40px;border-bottom:1px solid #e5e5e5;background:#fff
 }
-.brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-}
-.brand img{
-  height:55px;
-}
-.company-name{
-  font-weight:700;
-  font-family:Arial,Helvetica,sans-serif;
-}
-.tagline{
-  font-size:14px;
-  color:#2fa4d9;
-}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{height:55px}
+.company-name{font-weight:700;font-family:Arial}
+.tagline{font-size:14px;color:#2fa4d9}
 .site-header nav a{
-  margin-left:20px;
-  text-decoration:none;
-  color:#222;
-  font-weight:600;
+  margin-left:20px;text-decoration:none;color:#222;font-weight:600
 }
-.site-header nav a:hover{
-  color:#2fa4d9;
-}
+.site-header nav a:hover{color:#2fa4d9}
 </style>
 
-</head>
-<body>
+<link rel="stylesheet" href="pages.css">
+</head><body>
 
 <header class="site-header">
   <div class="brand">
@@ -62,8 +37,16 @@
   </nav>
 </header>
 
-<div style="padding:40px;font-family:Arial">
+<section class="page-section">
 <h1>Contact Us</h1>
-</div>
-</body>
-</html>
+<form class="contact-form" action="https://formsubmit.co/prajapatinilesh520@gmail.com" method="POST">
+<input type="hidden" name="_captcha" value="false">
+<div class="form-group"><label>Name</label><input name="name" required></div>
+<div class="form-group"><label>Company</label><input name="company" required></div>
+<div class="form-group"><label>Email</label><input type="email" name="email" required></div>
+<div class="form-group"><label>Phone</label><input name="phone" required></div>
+<div class="form-group"><label>Message</label><textarea name="message"></textarea></div>
+<button class="btn-quote">Submit Enquiry</button>
+</form>
+</section>
+</body></html>
