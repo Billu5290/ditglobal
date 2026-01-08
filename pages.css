@@ -1,16 +1,50 @@
 
-/* SAFE INNER PAGES ONLY */
+/* ===== INNER PAGES HEADER (SAFE) ===== */
+.site-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:15px 40px;
+  border-bottom:1px solid #e5e5e5;
+  background:#fff;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.brand img{
+  height:55px;
+}
+
+.brand-text .company-name{
+  font-weight:700;
+  font-size:18px;
+}
+
+.brand-text .tagline{
+  font-size:13px;
+  color:#2fa4d9;
+}
+
+.site-header nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:#222;
+  font-weight:600;
+}
+
+/* ===== PAGE CONTENT ===== */
 .page-section{padding:60px 40px;max-width:1200px;margin:auto;font-family:Arial,Helvetica,sans-serif;color:#222}
-.site-header{border-bottom:1px solid #e5e5e5}
 
 /* PRODUCTS */
 .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
 .product-card{border:1px solid #dcdcdc;border-radius:10px;padding:15px;background:#f7f7f7;text-align:center}
 .product-img{width:100%;aspect-ratio:3/4;overflow:hidden;border-radius:8px;background:#eee}
 .product-img img{width:100%;height:100%;object-fit:cover}
-.product-card h3{margin:15px 0}
 .btn-quote{display:inline-block;padding:10px 18px;background:#2fa4d9;color:#fff;text-decoration:none;border-radius:6px;font-weight:600}
-.btn-quote:hover{background:#1e8abf}
 
 /* ABOUT */
 .md-wrap{display:flex;gap:40px;align-items:center}
